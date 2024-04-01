@@ -1,3 +1,9 @@
 1-) npm i --save-dev eslint@8.16.0 => Install
 2-) npx eslint --init => Iniciar
 3-) npx eslint {nomeArquivo} => Checar o arquivo
+4-)Para “chamar” o Eslint no VSC e organizar seu código automaticamente, 
+  utilize o atalho ctrl + shift + P (Windows/Linux) ou cmd + shift + P (MacOs), 
+  digite Eslint e escolha a opção "Fix all auto-fixable problems" ou posicione o cursor 
+  piscante sobre alguma das linhas sublinhadas vermelhas e utilize o atalho ctrl + . 
+  para abrir o menu do Eslint e escolher “Fix all auto-fixable problems” se estiver 
+  disponível.

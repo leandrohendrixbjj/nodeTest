@@ -1,4 +1,4 @@
-import assert from "node:assert/strict"
+import assert from 'node:assert/strict'
 
 // Validate two values
 assert.strictEqual(1, 1)

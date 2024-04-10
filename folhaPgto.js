@@ -1,10 +1,10 @@
 
-const reajusteSalario = (salario, valor) => {
-  return salario + valor
+const wageRaising = (wage, value) => {
+  return wage + value
 }
 
-const descontoSalario = (salario, valor) => {
-  return salario - valor
+const wageDiscount = (wage, value) => {
+  return wage - value
 }
 
-export { reajusteSalario, descontoSalario }
+export { wageRaising, wageDiscount }

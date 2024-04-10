@@ -1,15 +1,16 @@
 /* eslint-disable no-undef */
-import { reajusteSalario, descontoSalario } from "../folhaPgto.js"
+import { wageRaising, wageDiscount } from "../folhaPgto.js"
 
-test("Reajuste Salário", () => {
-  const esperado = 100
-  const salario = reajusteSalario(80, 20)
+test("Wage Raising", () => {
+  const newSalary = 100
+  const wage = wageRaising(80, 20)
 
-  expect(salario).toBe(esperado)
+  expect(newSalary).toBe(wage)
 })
 
-test("Desconto Salário", () => {
-  const esperado = 80
-  const salario = descontoSalario(100, 20)
-  expect(salario).toBe(esperado)
+test("Wage Discount", () => {
+  const newSalary = 80
+  const wage = wageDiscount(100, 20)
+
+  expect(newSalary).toBe(wage)
 })

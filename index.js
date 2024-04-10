@@ -1,5 +1,3 @@
-const somaHorasExtras = (salario, valorHorasExtras) => {
-  return salario + valorHorasExtras
-}
+console.clear()
 
-console.log(somaHorasExtras(1000, 2))
+console.log("Welcome to Index")

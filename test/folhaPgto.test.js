@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import { wageRaising, wageDiscount } from "../folhaPgto.js"
+import { wageRaising, wageDiscount } from "../src/folhaPgto.js"
 
 describe("Teste folha de Pagamento", () => {
   it("Wage Raising", () => {

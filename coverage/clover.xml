@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1713223108123" clover="3.2.0">
-  <project timestamp="1713223108123" name="All files">
-    <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4" elements="12" coveredelements="12" complexity="0" loc="8" ncloc="8" packages="1" files="2" classes="2"/>
+<coverage generated="1713481863574" clover="3.2.0">
+  <project timestamp="1713481863574" name="All files">
+    <metrics statements="20" coveredstatements="13" conditionals="2" coveredconditionals="0" methods="10" coveredmethods="6" elements="32" coveredelements="19" complexity="0" loc="20" ncloc="20" packages="1" files="3" classes="3"/>
+    <file name="carrinho.js" path="C:\xampp\htdocs\nodeTest\src\carrinho.js">
+      <metrics statements="12" coveredstatements="5" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="2"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="8" count="3" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="16" count="0" type="stmt"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="21" count="0" type="stmt"/>
+      <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="26" count="0" type="stmt"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="31" count="0" type="stmt"/>
+    </file>
     <file name="folhaPgto.js" path="C:\xampp\htdocs\nodeTest\src\folhaPgto.js">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="2" count="1" type="stmt"/>
@@ -11,9 +26,9 @@
     </file>
     <file name="item.js" path="C:\xampp\htdocs\nodeTest\src\item.js">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <line num="5" count="2" type="stmt"/>
-      <line num="6" count="2" type="stmt"/>
-      <line num="7" count="2" type="stmt"/>
+      <line num="5" count="4" type="stmt"/>
+      <line num="6" count="4" type="stmt"/>
+      <line num="7" count="4" type="stmt"/>
       <line num="11" count="1" type="stmt"/>
     </file>
   </project>

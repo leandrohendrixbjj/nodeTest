@@ -9,6 +9,10 @@ describe("Teste Classe Carrinho", () => {
     expect(carrinho.subtotal).toBeNull()
   })
 
+  it("Valida propriedade Total", () => {
+    expect(new Carrinho()).toHaveProperty("total")
+  })
+
   it("Add item no Carrinho", () => {
     const carrinho = new Carrinho()
     const fazer = new Item("Fazer", 1, 20)
@@ -25,9 +29,8 @@ describe("Teste Classe Carrinho", () => {
     expect(carrinho.itens).toContain(vstrom)
   })
 
-  it("Valida propriedade Total", () => {
+  it("Valida Carrinho Vazio", () => {
     const carrinho = new Carrinho()
-    expect(carrinho).toHaveProperty("total")
+    expect(carrinho.finalizaCompra).toThrow(Error)    
   })
-
 })

@@ -6,6 +6,7 @@ describe("Teste dos itens", () => {
   it("Todos os campos de item", () => {
     const item = new Item("Meteor", 350, 1)
 
+    expect(typeof item).toBe("object")
     expect(item.nome).toBe("Meteor")
     expect(item.valor).toBe(350)
     expect(item.quantidade).toBe(1)

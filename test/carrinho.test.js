@@ -31,6 +31,28 @@ describe("Teste Classe Carrinho", () => {
 
   it("Valida Carrinho Vazio", () => {
     const carrinho = new Carrinho()
-    expect(carrinho.finalizaCompra).toThrow(Error)    
+    expect(carrinho.finalizaCompra).toThrow(Error)
+  })
+
+  it("Valida Frete", () => {
+    const carrinho = new Carrinho()
+    carrinho.adicionaFrete(10)
+    expect(carrinho.frete).toBe(10)
+  })
+
+  it("Finalizar Compra", () => {
+    // toStrictEqual => Usando quando tipo de retorno é diferente, mas os 
+    // valores são iguais. Exemplo: String e Object
+    
+    const burgman = new Item('Burgman', 1, 100)
+    const carrinho = new Carrinho()
+    carrinho.adiciona(burgman)
+    carrinho.adicionaFrete(5)
+    
+    expect(carrinho.finalizaCompra()).toStrictEqual({
+      subtotal: 100,
+      frete: 5,
+      total: 105
+    })
   })
 })
